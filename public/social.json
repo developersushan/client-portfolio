@@ -1,0 +1,27 @@
+
+[
+    {
+        "id":1,
+        "picture":"https://templatekit.kotakkuning.com/porka/wp-content/uploads/sites/2/2021/02/Icon-1.png",
+        "title":"Social Media Marketing",
+        "description":"Donec bibendum purus quis velit tempor, eleifend tempor quam facilisis. Fusce tellus felis, rhoncus nec magna id, iaculis porta diam."
+    },
+    {
+        "id":2,
+        "picture":"https://templatekit.kotakkuning.com/porka/wp-content/uploads/sites/2/2021/02/Icon-2.png",
+        "title":"Market Analysis",
+        "description":"Donec bibendum purus quis velit tempor, eleifend tempor quam facilisis. Fusce tellus felis, rhoncus nec magna id, iaculis porta diam."
+    },
+    {
+        "id":3,
+        "picture":"https://templatekit.kotakkuning.com/porka/wp-content/uploads/sites/2/2021/02/Icon-4.png",
+        "title":"SEO Consultancy",
+        "description":"Donec bibendum purus quis velit tempor, eleifend tempor quam facilisis. Fusce tellus felis, rhoncus nec magna id, iaculis porta diam."
+    },
+    {
+        "id":4,
+        "picture":"https://templatekit.kotakkuning.com/porka/wp-content/uploads/sites/2/2021/02/Icon-3.png",
+        "title":"Page Ranking",
+        "description":"Donec bibendum purus quis velit tempor, eleifend tempor quam facilisis. Fusce tellus felis, rhoncus nec magna id, iaculis porta diam."
+    }
+]
