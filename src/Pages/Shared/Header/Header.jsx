@@ -4,8 +4,8 @@ import { FiAlignJustify,FiX } from "react-icons/fi";
 const Header = () => {
 const [open,setOpen] = useState(false)
   return (
-    <div className="lg:w-8/12 md:w-full mx-auto text-center py-2">
-      <header className="flex items-center  justify-between">
+    <div className="lg:w-8/12 md:w-full mx-auto text-center py-2 relative">
+      <header className="flex items-center  justify-between sticky top-0">
             <div className="">
                 <h2 className="text-4xl font-bold text-orange-500">Prokash</h2>
             </div>
