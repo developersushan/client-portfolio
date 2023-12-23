@@ -5,6 +5,7 @@ import GigGallery from "../Pages/GigGallery/GigGallery";
 import AboutPage from "../Pages/AboutPage/AboutPage";
 import ServicesPage from "../Pages/ServicesPage/ServicesPage";
 import Contact from "../Pages/ContactFrom/Contact";
+import Dashboard from "../Pages/Dashboard/Dashboard";
 
 export const router = createBrowserRouter([
     {
@@ -26,7 +27,16 @@ export const router = createBrowserRouter([
             },
             {
                 path:'/contact', element:<Contact/>
-            }
+            },
+            {
+                path:'/admin', element:<Dashboard/>
+            },
+            
+
         ],
+        
+
+    
+        
     }
 ])

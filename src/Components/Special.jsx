@@ -22,7 +22,7 @@ const Special = () => {
             {
                 social.map(item => {
                     return(
-                    <div key={item.id} className="text-left shadow-xl p-5 bg-gray-600 rounded hover:bg-pink-600 transition hover:scale-90 duration-200 delay-100 ">
+                    <div key={item.id} className="text-left special box p-5 bg-white box rounded  transition hover:scale-90 duration-200 delay-100 ">
                         <img src={item.picture} width={100}  alt="" />
                         <h3 className="text-3xl font-medium mt-4 mb-2">{item.title}</h3>
                         <p>{item.description}</p>

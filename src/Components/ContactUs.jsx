@@ -22,8 +22,8 @@ const ContactUs = () => {
             <p>Email: {item.email}</p>
           </div>  
           <div className='text-gray-700'>
-            <h3>Address: {item.address}</h3>
-            <p>Phone: {item.phone}</p>
+            <h2>Address: {item.address}</h2>
+            <p>WhatsApp: {item.phone}</p>
           </div>
 
            </div>

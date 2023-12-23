@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="sm:w-8/12 w-full mx-auto text-center py-4">
       <div className="sm:flex justify-around">
         <div className="cols-1">
-            <h2 className="text-4xl hidden sm:block font-bold text-orange-500">prokash</h2>
+            <h2 className="text-4xl hidden sm:block font-bold text-[#794FFC]">prokash</h2>
         </div>
         <div className=" grid grid-cols-2 gap-5">
             <div className="text-left list-none leading-8">

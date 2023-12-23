@@ -2,7 +2,7 @@ import CountDown from "./CountDown"
 
 const About = () => {
   return (
-    <div className="xl:bg-white shadow-md bg-none py-8" >
+    <div className="xl:bg-white  bg-none py-8" >
       <div className="w-8/12 py-2 mx-auto text-center">
         <div data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000" className="grid grid-cols-1 md:grid-cols-2 mb-4">
           <div className="mx-auto">

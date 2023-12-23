@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { FiThumbsUp } from "react-icons/fi";
-import { useLocation, useNavigate,  } from 'react-router-dom';
+import { Link, useLocation, useNavigate,  } from 'react-router-dom';
 const GigBox = () => {
     const [user,setUser] = useState([])
     const [active,setActive] = useState(false)
@@ -22,17 +22,20 @@ const GigBox = () => {
   const handleNavigate =()=>{
     navigate('/gig_gallery')
   }
+  const handleShowGig =(item)=>{
+    // console.log(item)
+  }
   return (
     <div className='p-3'>
       <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 grid-cols-1 gap-3'>
         {
             user.map(item=>{
                 return(
-                    <div key={item.id} className='shadow-xl md:bg-[#2D2E32] bg-white rounded  mx-auto text-center md:text-white text-black  p-4'>
+                    <div key={item.id} onClick={()=>handleShowGig(item)} className='shadow-xl  bg-white rounded  mx-auto text-center  text-black  p-4'>
                         <div className='overflow-hidden'>
                             <img className='scale-105 hover:scale-125  w-full transition duration-300 ease-in delay-100' src={item.img} width={400} alt="" />
                         </div>
-                        <h2 className='text-xl font-semibold text-left mt-2'>{item.title}</h2>
+                        <h2 className='text-lg font-medium text-left mt-2'>{item.title}</h2>
                         <div className='flex justify-start px-1 mt-3'>
                           <button onClick={()=>handleButton(index)} className={`text-xl ${active ?'active':''}`}><FiThumbsUp/></button>
                         </div>
