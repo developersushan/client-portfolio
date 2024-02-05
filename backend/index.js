@@ -16,6 +16,7 @@ app.get('/', (req,res)=>{
     res.send('server running port  8500 complete')
 })
 
+
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 
 const uri = `mongodb+srv://${process.env.DB_USER_NAME}:${process.env.DB_PASSWORD}@portfolio.ypqyiqw.mongodb.net/?retryWrites=true&w=majority`;
