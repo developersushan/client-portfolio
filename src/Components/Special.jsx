@@ -13,7 +13,7 @@ const Special = () => {
     },[])
   return (
     <div className=" shadow-md w-full bg-none  ">
-      <div className="w-8/12  py-2 mx-auto text-center">
+      <div className="w-full md:w-8/12  py-2 mx-auto text-center">
         <div className="hed md:w-1/2 mx-auto py-9">
             <h3 className="text-orange-500 text-lg font-semibold">What The Special</h3>
             <h2 className="text-2xl sm:text-4xl font-semibold font_style">Want to boost your business growth? Solution is here</h2>

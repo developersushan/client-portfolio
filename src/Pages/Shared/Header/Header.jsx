@@ -1,15 +1,16 @@
 import { useState } from "react";
 import { menuItem } from "../../../hooks/HeaderHooks"
 import { FiAlignJustify,FiX } from "react-icons/fi";
-import Logo from "../../../assets/logo_main.png"
+// import Logo from "../../../assets/logo.png"
+import Logo1 from "../../../assets/logo.png"
 const Header = () => {
 const [open,setOpen] = useState(false)
   return (
     <div className="lg:w-8/12 md:w-full mx-auto text-center py-2 relative">
       <header className="flex items-center  justify-between sticky top-0">
             <div className="">
-              <img src={Logo} width={100} height={100} className="w-[70px] h-[60px]" alt="" />
-                {/* <h2 className="text-4xl font-bold text-[#794FFC]">  </h2> */}
+              <img src={Logo1} width={100} height={100} className="w-[100px] h-[60px]" alt="" />
+                {/* <h2 className="text-4xl font-bold text-[#794FFC]"> Prokash </h2> */}
             </div>
             <div className="hidden sm:flex gap-10  items-center list-none">
                 {menuItem}

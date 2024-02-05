@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { HiArrowSmallRight } from "react-icons/hi2";
 
 const Sidebar = ({isSelected,setSelected}) => {
     const [sidebarUser,setSidebarUser] = useState([])
@@ -16,7 +17,7 @@ const Sidebar = ({isSelected,setSelected}) => {
       <div>
         <ul>
             {
-                sidebarUser.map((item)=>(  <li onClick={()=>setSelected(item.id)} key={item.id} className=' border-b-[1px] border-gray-300 py-2 hover:bg-indigo-500 hover:px-4 duration-200 hover:text-white rounded-md cursor-pointer'>{item.title}</li>))
+                sidebarUser.map((item)=>(  <li onClick={()=>setSelected(item.id)} key={item.id} className=' border-b-[1px] border-gray-300 py-2 hover:bg-indigo-500 hover:px-4 duration-200 hover:text-white rounded-md cursor-pointer flex items-center justify-between'><span>{item.title}</span> <span><HiArrowSmallRight/> </span></li>))
             }
 
 

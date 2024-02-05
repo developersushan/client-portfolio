@@ -5,35 +5,35 @@
     },
     {
         "id":2,
-        "title":"user profile"
+        "title":"User profile"
     },
     {
         "id":3,
-        "title":"authentication"
+        "title":"ManagementCount"
     },
     {
         "id":4,
-        "title":"account"
+        "title":"Gig Management"
     },
     {
         "id":5,
-        "title":"social"
+        "title":"Social"
     },
     {
         "id":6,
-        "title":"blog"
+        "title":"Home Management"
     },
     {
         "id":7,
-        "title":"Dashboard"
+        "title":"Image Upload"
     },
     {
         "id":8,
-        "title":"Dashboard"
+        "title":"Analytics"
     },
     {
         "id":9,
-        "title":"Dashboard"
+        "title":"Management"
     },
     {
         "id":10,

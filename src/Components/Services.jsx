@@ -6,8 +6,8 @@ const Services = () => {
   return (
     <div className='shadow-md bg-none  '>
         
-        <div className='lg:w-8/12  md:w-full py-2 mx-auto text-center'>
-            <div className='bg-indigo-500 rounded'>
+        <div className='md:w-8/12 w-full py-2 px-4 md:-px0 mx-auto text-center'>
+            <div className='bg-[#dfdfdf] rounded'>
             <ScrollSlide></ScrollSlide>
             </div>
             <div>

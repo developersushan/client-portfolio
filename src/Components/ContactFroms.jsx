@@ -5,6 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { toast } from 'react-toastify';
 import { ToastContainer } from 'react-toastify';
 import Swal from 'sweetalert2';
+import axios from 'axios';
 
 const ContactFroms = () => {
 
@@ -23,6 +24,12 @@ const handleFromSubmit =(event)=>{
   const number =  inputFrom.from_number.value
   const message = inputFrom.message.value
   const users = {firstName,lastName,email,number,message}
+
+  axios.post('http://localhost:8500/contact',users)
+  .then(res=>{
+    console.log('successfully done')
+  })
+  .then(err =>console.log(err))
   
   if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){
     return setError('Please enter your valid email ')
@@ -33,7 +40,8 @@ const handleFromSubmit =(event)=>{
   }
   emailjs.sendForm('service_78ikmz7', 'template_yzadwri', form.current, 'ZTG23n_BHzhkJXix2')
   .then((result) => {
-      console.log(result.text);
+      // console.log(result.text);
+      result
   // toast.success('message successfully sent !')
   Swal.fire({
     position: "top-center",
