@@ -6,6 +6,7 @@ import Linkedin from "../../../assets/main details/4.jpg"
 import { useEffect, useState } from "react"
 import axios from "axios"
 import { Link } from "react-router-dom"
+import Logo1 from '../../../assets/favicon/skilpro_logo_150.png'
 
 const Footer = () => {
   const [facebook,setFacebook] = useState([])
@@ -52,8 +53,9 @@ const Footer = () => {
   return (
     <div className="sm:w-8/12 w-full mx-auto text-center py-4">
       <div className="sm:flex justify-around">
-        <div className="cols-1">
-            <h2 className="text-4xl hidden sm:block font-bold text-[#794FFC]">prokash</h2>
+        <div className="cols-1 flex items-center ">
+        <img src={Logo1} width={100} height={100} className="w-[66px] h-[40px]" alt="" />
+            <h2 className="text-xl hidden sm:block font-medium text-[#5ac8fa]">Skills Pro</h2>
         </div>
         <div className=" grid grid-cols-2 gap-5">
             <div className="text-left list-none leading-8">
