@@ -316,11 +316,13 @@ async function gigApi(){
         app.post('/addGig', upload.array('file',10) , async (req,res)=>{
        
         const { title, description, basicTitle,basicPrice ,basicDescription , basicDelivery,basicRevision ,standardTitle ,standardPrice ,standardDescription ,standardDelivery , standardRevision, premiumTitle, premiumPrice,premiumDescription ,premiumDelivery , premiumRevision,ComparePackage , StandardPackage, PremiumPackage} = req.body;
+
             const filePaths = req.files.map(file => file);
             const basic = {basicTitle,basicPrice ,basicDescription , basicDelivery,basicRevision,ComparePackage}
             const standard = {standardTitle ,standardPrice ,standardDescription ,standardDelivery , standardRevision,StandardPackage}
             const premium ={premiumTitle, premiumPrice,premiumDescription ,premiumDelivery , premiumRevision,PremiumPackage}
             // const query = req.body
+            // console.log(query)
             const newGig = {
                 title, description,
                 basic:basic,

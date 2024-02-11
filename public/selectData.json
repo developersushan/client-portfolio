@@ -6,8 +6,8 @@
                 "value":"1"
             },
             {
-                "label":"2",
-                "value":"2"
+                "label":"2 Revision",
+                "value":"2 Revision"
             },
             {
                 "label":"3",
@@ -125,68 +125,76 @@
         ],
         "basicRevision":[
             {
-                "label":"1",
-                "value":"1"
+                "label":"1 Revision",
+                "value":"1 Revision"
             },
             {
-                "label":"2",
-                "value":"2"
+                "label":"2 Revision",
+                "value":"2 Revision"
             },
             {
-                "label":"3",
-                "value":"3"
+                "label":"3 Revision",
+                "value":"3 Revision"
             },
             {
-                "label":"4",
-                "value":"4"
+                "label":"4 Revision",
+                "value":"4 Revision"
             },
             {
-                "label":"5",
-                "value":"5"
+                "label":"5 Revision",
+                "value":"5 Revision"
             },
             {
-                "label":"6",
-                "value":"6"
+                "label":"6 Revision",
+                "value":"6 Revision"
             },
             {
-                "label":"7",
-                "value":"7"
+                "label":"7 Revision",
+                "value":"7 Revision"
             },
             {
-                "label":"8",
-                "value":"8"
+                "label":"8 Revision",
+                "value":"8 Revision"
             },
             {
-                "label":"9",
-                "value":"9"
+                "label":"9 Revision",
+                "value":"9 Revision"
             },
             {
-                "label":"10",
-                "value":"10"
+                "label":"10 Revision",
+                "value":"10 Revision"
             },
             {
-                "label":"11",
-                "value":"11"
+                "label":"11 Revision",
+                "value":"11 Revision"
             },
             {
-                "label":"12",
-                "value":"12"
+                "label":"12 Revision",
+                "value":"12 Revision"
             },
             {
-                "label":"15",
-                "value":"15"
+                "label":"15 Revision",
+                "value":"15 Revision"
             },
             {
-                "label":"20",
-                "value":"20"
+                "label":"20 Revision",
+                "value":"20 Revision"
             },
             {
-                "label":"25",
-                "value":"25"
+                "label":"25 Revision",
+                "value":"25 Revision"
             },
             {
-                "label":"30",
-                "value":"30"
+                "label":"30 Revision",
+                "value":"30 Revision"
+            },
+            {
+                "label":"35 Revision",
+                "value":"35 Revision"
+            },
+            {
+                "label":"40 Revision",
+                "value":"40 Revision"
             },
             {
                 "label":"Unlimited Revisions",

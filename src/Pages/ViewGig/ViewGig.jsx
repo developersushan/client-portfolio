@@ -75,7 +75,7 @@ const ViewGig = () => {
             {/* {
               data?.comparePackage?.val.map((item,i)=>( */}
                 <div className=' mt-2'>
-                  <h3 className='flex items-center gap-2 text-gray-500' ><span className='text-black text-xl font-bold'><FiCheck /></span> {data2?.ComparePackage}</h3>
+                  <h3 className='flex items-center gap-2 text-gray-500' ><span className='text-black text-xl font-bold'><FiCheck /></span> {data?.ComparePackage}</h3>
                 </div>
               {/* ))
             } */}
@@ -96,7 +96,7 @@ const ViewGig = () => {
             {/* {
               data1?.comparePackageStand?.valStand.map((item,i)=>( */}
                 <div className=' mt-2' >
-                  <h3 className='flex items-center gap-2 text-gray-500' ><span className='text-black text-xl font-bold'><FiCheck /></span> {data2?.StandardPackage}</h3>
+                  <h3 className='flex items-center gap-2 text-gray-500' ><span className='text-black text-xl font-bold'><FiCheck /></span> {data1?.StandardPackage}</h3>
                 </div>
             {/* //   ))
             // } */}

@@ -78,7 +78,7 @@ console.log({val})
         // const StandardPackage = valStand.map(item =>item)
         // const PremiumPackage = valPremium.map(item =>item)
         // console.log(PremiumPackage)
-        formData.append('ComparePackage', ComparePackage);
+       formData.append('ComparePackage', ComparePackage);
         formData.append('StandardPackage', StandardPackage);
         formData.append('PremiumPackage', PremiumPackage);
 
